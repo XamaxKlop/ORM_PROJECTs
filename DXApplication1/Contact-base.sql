@@ -1,0 +1,1 @@
+SELECT * FROM `contact-base`.new_table;
