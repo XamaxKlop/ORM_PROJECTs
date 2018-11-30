@@ -1,5 +1,7 @@
-﻿namespace NoteAppV0._1 {
-    partial class Form1 {
+﻿namespace NoteAppV0._1
+{
+    partial class Form1
+    {
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -9,8 +11,10 @@
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing) {
-            if(disposing && (components != null)) {
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
                 components.Dispose();
             }
             base.Dispose(disposing);
@@ -22,33 +26,21 @@
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent() {
+        private void InitializeComponent()
+        {
             this.components = new System.ComponentModel.Container();
             DevExpress.XtraScheduler.TimeRuler timeRuler1 = new DevExpress.XtraScheduler.TimeRuler();
             DevExpress.XtraScheduler.TimeRuler timeRuler2 = new DevExpress.XtraScheduler.TimeRuler();
             DevExpress.XtraScheduler.TimeRuler timeRuler3 = new DevExpress.XtraScheduler.TimeRuler();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            DevExpress.Utils.Animation.PushTransition pushTransition1 = new DevExpress.Utils.Animation.PushTransition();
             this.splitContainerControl = new DevExpress.XtraEditors.SplitContainerControl();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.homeNumber0DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.homeNumber1DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.homeNumber2DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ageDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.workNumber0DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.workNumber1DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.workNumber2DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.surnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.organizationDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.positionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.addressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.userstoreDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.userstoreDataSet = new NoteAppV0._1.userstoreDataSet();
             this.schedulerSplitContainerControl = new DevExpress.XtraEditors.SplitContainerControl();
             this.schedulerControl = new DevExpress.XtraScheduler.SchedulerControl();
             this.schedulerStorage = new DevExpress.XtraScheduler.SchedulerDataStorage(this.components);
             this.dateNavigator = new DevExpress.XtraScheduler.DateNavigator();
+            this.userstoreDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.userstoreDataSet = new NoteAppV0._1.userstoreDataSet();
             this.navbarImageCollectionLarge = new DevExpress.Utils.ImageCollection(this.components);
             this.navbarImageCollection = new DevExpress.Utils.ImageCollection(this.components);
             this.ribbonControl = new DevExpress.XtraBars.Ribbon.RibbonControl();
@@ -71,29 +63,24 @@
             this.barEditItem1 = new DevExpress.XtraBars.BarEditItem();
             this.repositoryItemMemoExEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemMemoExEdit();
             this.ribbonImageCollectionLarge = new DevExpress.Utils.ImageCollection(this.components);
-            this.Ко = new DevExpress.XtraBars.Ribbon.RibbonPageCategory();
-            this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.ribbonPageCategory1 = new DevExpress.XtraBars.Ribbon.RibbonPageCategory();
-            this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.helpRibbonPage = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.helpRibbonPageGroup = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.repositoryItemDateEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemDateEdit();
             this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.userstoreDataSetBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.contactsTableAdapter = new NoteAppV0._1.userstoreDataSetTableAdapters.ContactsTableAdapter();
+            this.workspaceManager1 = new DevExpress.Utils.WorkspaceManager(this.components);
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl)).BeginInit();
             this.splitContainerControl.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.userstoreDataSetBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.userstoreDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.schedulerSplitContainerControl)).BeginInit();
             this.schedulerSplitContainerControl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.schedulerControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.schedulerStorage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateNavigator)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateNavigator.CalendarTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.userstoreDataSetBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.userstoreDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.navbarImageCollectionLarge)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.navbarImageCollection)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl)).BeginInit();
@@ -119,131 +106,13 @@
             this.splitContainerControl.Padding = new System.Windows.Forms.Padding(6);
             this.splitContainerControl.Panel1.AutoScroll = true;
             this.splitContainerControl.Panel1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            this.splitContainerControl.Panel1.Controls.Add(this.dataGridView1);
             this.splitContainerControl.Panel1.Text = "Panel1";
             this.splitContainerControl.Panel2.Controls.Add(this.schedulerSplitContainerControl);
             this.splitContainerControl.Panel2.Text = "Panel2";
             this.splitContainerControl.Size = new System.Drawing.Size(1100, 532);
-            this.splitContainerControl.SplitterPosition = 435;
+            this.splitContainerControl.SplitterPosition = 2;
             this.splitContainerControl.TabIndex = 0;
             this.splitContainerControl.Text = "splitContainerControl1";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AllowUserToOrderColumns = true;
-            this.dataGridView1.AutoGenerateColumns = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idDataGridViewTextBoxColumn,
-            this.homeNumber0DataGridViewTextBoxColumn,
-            this.homeNumber1DataGridViewTextBoxColumn,
-            this.homeNumber2DataGridViewTextBoxColumn,
-            this.nameDataGridViewTextBoxColumn,
-            this.ageDataGridViewTextBoxColumn,
-            this.workNumber0DataGridViewTextBoxColumn,
-            this.workNumber1DataGridViewTextBoxColumn,
-            this.workNumber2DataGridViewTextBoxColumn,
-            this.surnameDataGridViewTextBoxColumn,
-            this.organizationDataGridViewTextBoxColumn,
-            this.positionDataGridViewTextBoxColumn,
-            this.addressDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.userstoreDataSetBindingSource;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(431, 516);
-            this.dataGridView1.TabIndex = 0;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick_1);
-            // 
-            // idDataGridViewTextBoxColumn
-            // 
-            this.idDataGridViewTextBoxColumn.DataPropertyName = "id";
-            this.idDataGridViewTextBoxColumn.HeaderText = "id";
-            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
-            this.idDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // homeNumber0DataGridViewTextBoxColumn
-            // 
-            this.homeNumber0DataGridViewTextBoxColumn.DataPropertyName = "homeNumber0";
-            this.homeNumber0DataGridViewTextBoxColumn.HeaderText = "homeNumber0";
-            this.homeNumber0DataGridViewTextBoxColumn.Name = "homeNumber0DataGridViewTextBoxColumn";
-            // 
-            // homeNumber1DataGridViewTextBoxColumn
-            // 
-            this.homeNumber1DataGridViewTextBoxColumn.DataPropertyName = "homeNumber1";
-            this.homeNumber1DataGridViewTextBoxColumn.HeaderText = "homeNumber1";
-            this.homeNumber1DataGridViewTextBoxColumn.Name = "homeNumber1DataGridViewTextBoxColumn";
-            // 
-            // homeNumber2DataGridViewTextBoxColumn
-            // 
-            this.homeNumber2DataGridViewTextBoxColumn.DataPropertyName = "homeNumber2";
-            this.homeNumber2DataGridViewTextBoxColumn.HeaderText = "homeNumber2";
-            this.homeNumber2DataGridViewTextBoxColumn.Name = "homeNumber2DataGridViewTextBoxColumn";
-            // 
-            // nameDataGridViewTextBoxColumn
-            // 
-            this.nameDataGridViewTextBoxColumn.DataPropertyName = "name";
-            this.nameDataGridViewTextBoxColumn.HeaderText = "name";
-            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
-            // 
-            // ageDataGridViewTextBoxColumn
-            // 
-            this.ageDataGridViewTextBoxColumn.DataPropertyName = "age";
-            this.ageDataGridViewTextBoxColumn.HeaderText = "age";
-            this.ageDataGridViewTextBoxColumn.Name = "ageDataGridViewTextBoxColumn";
-            // 
-            // workNumber0DataGridViewTextBoxColumn
-            // 
-            this.workNumber0DataGridViewTextBoxColumn.DataPropertyName = "workNumber0";
-            this.workNumber0DataGridViewTextBoxColumn.HeaderText = "workNumber0";
-            this.workNumber0DataGridViewTextBoxColumn.Name = "workNumber0DataGridViewTextBoxColumn";
-            // 
-            // workNumber1DataGridViewTextBoxColumn
-            // 
-            this.workNumber1DataGridViewTextBoxColumn.DataPropertyName = "workNumber1";
-            this.workNumber1DataGridViewTextBoxColumn.HeaderText = "workNumber1";
-            this.workNumber1DataGridViewTextBoxColumn.Name = "workNumber1DataGridViewTextBoxColumn";
-            // 
-            // workNumber2DataGridViewTextBoxColumn
-            // 
-            this.workNumber2DataGridViewTextBoxColumn.DataPropertyName = "workNumber2";
-            this.workNumber2DataGridViewTextBoxColumn.HeaderText = "workNumber2";
-            this.workNumber2DataGridViewTextBoxColumn.Name = "workNumber2DataGridViewTextBoxColumn";
-            // 
-            // surnameDataGridViewTextBoxColumn
-            // 
-            this.surnameDataGridViewTextBoxColumn.DataPropertyName = "surname";
-            this.surnameDataGridViewTextBoxColumn.HeaderText = "surname";
-            this.surnameDataGridViewTextBoxColumn.Name = "surnameDataGridViewTextBoxColumn";
-            // 
-            // organizationDataGridViewTextBoxColumn
-            // 
-            this.organizationDataGridViewTextBoxColumn.DataPropertyName = "organization";
-            this.organizationDataGridViewTextBoxColumn.HeaderText = "organization";
-            this.organizationDataGridViewTextBoxColumn.Name = "organizationDataGridViewTextBoxColumn";
-            // 
-            // positionDataGridViewTextBoxColumn
-            // 
-            this.positionDataGridViewTextBoxColumn.DataPropertyName = "position";
-            this.positionDataGridViewTextBoxColumn.HeaderText = "position";
-            this.positionDataGridViewTextBoxColumn.Name = "positionDataGridViewTextBoxColumn";
-            // 
-            // addressDataGridViewTextBoxColumn
-            // 
-            this.addressDataGridViewTextBoxColumn.DataPropertyName = "address";
-            this.addressDataGridViewTextBoxColumn.HeaderText = "address";
-            this.addressDataGridViewTextBoxColumn.Name = "addressDataGridViewTextBoxColumn";
-            // 
-            // userstoreDataSetBindingSource
-            // 
-            this.userstoreDataSetBindingSource.DataMember = "Contacts";
-            this.userstoreDataSetBindingSource.DataSource = this.userstoreDataSet;
-            this.userstoreDataSetBindingSource.CurrentChanged += new System.EventHandler(this.userstoreDataSetBindingSource_CurrentChanged);
-            // 
-            // userstoreDataSet
-            // 
-            this.userstoreDataSet.DataSetName = "userstoreDataSet";
-            this.userstoreDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // schedulerSplitContainerControl
             // 
@@ -255,7 +124,7 @@
             this.schedulerSplitContainerControl.Panel1.Text = "Panel1";
             this.schedulerSplitContainerControl.Panel2.Controls.Add(this.dateNavigator);
             this.schedulerSplitContainerControl.Panel2.Text = "Panel2";
-            this.schedulerSplitContainerControl.Size = new System.Drawing.Size(648, 520);
+            this.schedulerSplitContainerControl.Size = new System.Drawing.Size(1081, 520);
             this.schedulerSplitContainerControl.SplitterPosition = 242;
             this.schedulerSplitContainerControl.TabIndex = 2;
             this.schedulerSplitContainerControl.Text = "splitContainerControl1";
@@ -266,7 +135,7 @@
             this.schedulerControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.schedulerControl.Location = new System.Drawing.Point(0, 0);
             this.schedulerControl.Name = "schedulerControl";
-            this.schedulerControl.Size = new System.Drawing.Size(401, 520);
+            this.schedulerControl.Size = new System.Drawing.Size(834, 520);
             this.schedulerControl.Start = new System.DateTime(2018, 11, 7, 0, 0, 0, 0);
             this.schedulerControl.TabIndex = 0;
             this.schedulerControl.Text = "schedulerControl1";
@@ -288,6 +157,17 @@
             this.dateNavigator.SchedulerControl = this.schedulerControl;
             this.dateNavigator.Size = new System.Drawing.Size(242, 520);
             this.dateNavigator.TabIndex = 1;
+            // 
+            // userstoreDataSetBindingSource
+            // 
+            this.userstoreDataSetBindingSource.DataMember = "Contacts";
+            this.userstoreDataSetBindingSource.DataSource = this.userstoreDataSet;
+            this.userstoreDataSetBindingSource.CurrentChanged += new System.EventHandler(this.userstoreDataSetBindingSource_CurrentChanged);
+            // 
+            // userstoreDataSet
+            // 
+            this.userstoreDataSet.DataSetName = "userstoreDataSet";
+            this.userstoreDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // navbarImageCollectionLarge
             // 
@@ -328,11 +208,8 @@
             this.barEditItem1});
             this.ribbonControl.LargeImages = this.ribbonImageCollectionLarge;
             this.ribbonControl.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl.MaxItemId = 70;
+            this.ribbonControl.MaxItemId = 73;
             this.ribbonControl.Name = "ribbonControl";
-            this.ribbonControl.PageCategories.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageCategory[] {
-            this.Ко,
-            this.ribbonPageCategory1});
             this.ribbonControl.PageHeaderItemLinks.Add(this.iAbout);
             this.ribbonControl.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.helpRibbonPage});
@@ -529,49 +406,6 @@
             this.ribbonImageCollectionLarge.Images.SetKeyName(1, "Ribbon_Content_32x32.png");
             this.ribbonImageCollectionLarge.Images.SetKeyName(2, "Ribbon_Info_32x32.png");
             // 
-            // Ко
-            // 
-            this.Ко.Name = "Ко";
-            this.Ко.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
-            this.ribbonPage1});
-            this.Ко.Text = "Контакты";
-            // 
-            // ribbonPage1
-            // 
-            this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
-            this.ribbonPageGroup1});
-            this.ribbonPage1.Name = "ribbonPage1";
-            this.ribbonPage1.Text = "Общие";
-            // 
-            // ribbonPageGroup1
-            // 
-            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem1);
-            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem2);
-            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem3);
-            this.ribbonPageGroup1.Name = "ribbonPageGroup1";
-            this.ribbonPageGroup1.Text = "Общие";
-            // 
-            // ribbonPageCategory1
-            // 
-            this.ribbonPageCategory1.Name = "ribbonPageCategory1";
-            this.ribbonPageCategory1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
-            this.ribbonPage2});
-            this.ribbonPageCategory1.Text = "Заметки";
-            // 
-            // ribbonPage2
-            // 
-            this.ribbonPage2.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
-            this.ribbonPageGroup2});
-            this.ribbonPage2.Name = "ribbonPage2";
-            this.ribbonPage2.Text = "Общие";
-            // 
-            // ribbonPageGroup2
-            // 
-            this.ribbonPageGroup2.ItemLinks.Add(this.barButtonItem4);
-            this.ribbonPageGroup2.ItemLinks.Add(this.barButtonItem5);
-            this.ribbonPageGroup2.Name = "ribbonPageGroup2";
-            this.ribbonPageGroup2.Text = "Общие";
-            // 
             // helpRibbonPage
             // 
             this.helpRibbonPage.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
@@ -611,11 +445,26 @@
             // 
             this.contactsTableAdapter.ClearBeforeFill = true;
             // 
+            // workspaceManager1
+            // 
+            this.workspaceManager1.TargetControl = this;
+            this.workspaceManager1.TransitionType = pushTransition1;
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Location = new System.Drawing.Point(194, 12);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(133, 23);
+            this.simpleButton1.TabIndex = 6;
+            this.simpleButton1.Text = "Контакты";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1100, 700);
+            this.Controls.Add(this.simpleButton1);
             this.Controls.Add(this.splitContainerControl);
             this.Controls.Add(this.popupControlContainer1);
             this.Controls.Add(this.popupControlContainer2);
@@ -626,15 +475,14 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl)).EndInit();
             this.splitContainerControl.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.userstoreDataSetBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.userstoreDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.schedulerSplitContainerControl)).EndInit();
             this.schedulerSplitContainerControl.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.schedulerControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.schedulerStorage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateNavigator.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateNavigator)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.userstoreDataSetBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.userstoreDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.navbarImageCollectionLarge)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.navbarImageCollection)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl)).EndInit();
@@ -659,59 +507,42 @@
         #endregion
 
         private DevExpress.XtraEditors.SplitContainerControl splitContainerControl;
-private DevExpress.XtraBars.Ribbon.RibbonControl ribbonControl;
-private DevExpress.XtraBars.BarButtonItem iExit;
-private DevExpress.XtraBars.BarButtonItem iHelp;
-private DevExpress.XtraBars.BarButtonItem iAbout;
-private DevExpress.XtraBars.RibbonGalleryBarItem rgbiSkins;
-private DevExpress.XtraBars.Ribbon.RibbonPage helpRibbonPage;
-private DevExpress.XtraBars.Ribbon.RibbonPageGroup helpRibbonPageGroup;
-private DevExpress.XtraBars.Ribbon.ApplicationMenu appMenu;
-private DevExpress.XtraBars.PopupControlContainer popupControlContainer1;
-private DevExpress.XtraEditors.LabelControl someLabelControl2;
-private DevExpress.XtraEditors.LabelControl someLabelControl1;
-private DevExpress.XtraBars.PopupControlContainer popupControlContainer2;
-private DevExpress.XtraEditors.ButtonEdit buttonEdit;
-private DevExpress.XtraBars.Ribbon.RibbonStatusBar ribbonStatusBar;
-private DevExpress.Utils.ImageCollection ribbonImageCollection;
-private DevExpress.Utils.ImageCollection ribbonImageCollectionLarge;
-private DevExpress.Utils.ImageCollection navbarImageCollection;
-private DevExpress.Utils.ImageCollection navbarImageCollectionLarge;
-private DevExpress.XtraEditors.SplitContainerControl schedulerSplitContainerControl;
-private DevExpress.XtraScheduler.SchedulerControl schedulerControl;
-private DevExpress.XtraScheduler.DateNavigator dateNavigator;
-private DevExpress.XtraScheduler.SchedulerDataStorage schedulerStorage;
+        private DevExpress.XtraBars.Ribbon.RibbonControl ribbonControl;
+        private DevExpress.XtraBars.BarButtonItem iExit;
+        private DevExpress.XtraBars.BarButtonItem iHelp;
+        private DevExpress.XtraBars.BarButtonItem iAbout;
+        private DevExpress.XtraBars.RibbonGalleryBarItem rgbiSkins;
+        private DevExpress.XtraBars.Ribbon.RibbonPage helpRibbonPage;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup helpRibbonPageGroup;
+        private DevExpress.XtraBars.Ribbon.ApplicationMenu appMenu;
+        private DevExpress.XtraBars.PopupControlContainer popupControlContainer1;
+        private DevExpress.XtraEditors.LabelControl someLabelControl2;
+        private DevExpress.XtraEditors.LabelControl someLabelControl1;
+        private DevExpress.XtraBars.PopupControlContainer popupControlContainer2;
+        private DevExpress.XtraEditors.ButtonEdit buttonEdit;
+        private DevExpress.XtraBars.Ribbon.RibbonStatusBar ribbonStatusBar;
+        private DevExpress.Utils.ImageCollection ribbonImageCollection;
+        private DevExpress.Utils.ImageCollection ribbonImageCollectionLarge;
+        private DevExpress.Utils.ImageCollection navbarImageCollection;
+        private DevExpress.Utils.ImageCollection navbarImageCollectionLarge;
+        private DevExpress.XtraEditors.SplitContainerControl schedulerSplitContainerControl;
+        private DevExpress.XtraScheduler.SchedulerControl schedulerControl;
+        private DevExpress.XtraScheduler.DateNavigator dateNavigator;
+        private DevExpress.XtraScheduler.SchedulerDataStorage schedulerStorage;
         private DevExpress.XtraBars.BarButtonItem barButtonItem1;
         private DevExpress.XtraBars.BarButtonItem barButtonItem2;
-        private DevExpress.XtraBars.Ribbon.RibbonPageCategory Ко;
-        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage1;
-        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup1;
         private DevExpress.XtraBars.BarButtonItem barButtonItem3;
         private DevExpress.XtraBars.BarButtonItem barButtonItem4;
         private DevExpress.XtraBars.BarButtonItem barButtonItem5;
-        private DevExpress.XtraBars.Ribbon.RibbonPageCategory ribbonPageCategory1;
-        private DevExpress.XtraBars.Ribbon.RibbonPage ribbonPage2;
-        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup2;
         private DevExpress.XtraEditors.Repository.RepositoryItemDateEdit repositoryItemDateEdit1;
         private DevExpress.XtraBars.BarEditItem barEditItem1;
         private DevExpress.XtraEditors.Repository.RepositoryItemMemoExEdit repositoryItemMemoExEdit1;
         private System.Windows.Forms.BindingSource userstoreDataSetBindingSource;
         private userstoreDataSet userstoreDataSet;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.BindingSource userstoreDataSetBindingSource1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn homeNumber0DataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn homeNumber1DataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn homeNumber2DataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ageDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn workNumber0DataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn workNumber1DataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn workNumber2DataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn surnameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn organizationDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn positionDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn addressDataGridViewTextBoxColumn;
         private userstoreDataSetTableAdapters.ContactsTableAdapter contactsTableAdapter;
+        private DevExpress.Utils.WorkspaceManager workspaceManager1;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
     }
+
 }

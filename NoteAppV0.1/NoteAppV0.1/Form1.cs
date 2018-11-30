@@ -30,11 +30,6 @@ namespace NoteAppV0._1
             SkinHelper.InitSkinGallery(rgbiSkins, true);
         }
 
-        private void barButtonItem2_ItemClick(object sender, ItemClickEventArgs e)
-        {
-            Contact contact1 = new Contact { };
-        }
-
         private void barButtonItem2_ItemClick_1(object sender, ItemClickEventArgs e)
         {
 
@@ -47,7 +42,7 @@ namespace NoteAppV0._1
 
         private void barButtonItem3_ItemClick(object sender, ItemClickEventArgs e)
         {
-            
+
         }
 
         private void schedulerControl_Click(object sender, EventArgs e)
@@ -56,11 +51,6 @@ namespace NoteAppV0._1
         }
 
         private void barEditItem1_ItemClick(object sender, ItemClickEventArgs e)
-        {
-
-        }
-
-        private void textEdit1_EditValueChanged(object sender, EventArgs e)
         {
 
         }
@@ -86,5 +76,22 @@ namespace NoteAppV0._1
         {
 
         }
+
+        private void barWorkspaceMenuItem1_ListItemClick(object sender, ListItemClickEventArgs e)
+        {
+
+        }
+
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void simpleButton1_Click_1(object sender, EventArgs e)
+        {
+            Contacts contacts = new Contacts();
+            contacts.Show();
+        }
     }
+    
 }

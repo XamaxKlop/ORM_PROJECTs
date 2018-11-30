@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root Type="DevExpress.CodeRush.Foundation.Markers.SolutionBookmarksContainer">
+  <Options Language="Neutral">
+    <Items>
+      <Item Id="{f7a6f7db-bdf6-46e5-bee9-34177c26d506}">
+        <Id>1</Id>
+        <File>NoteAppV0.1\NoteAppV0.1\Form1.Designer.cs</File>
+        <Line>546</Line>
+        <ViewportTop>536</ViewportTop>
+        <ViewportTopMax>553</ViewportTopMax>
+        <TopLine>536</TopLine>
+      </Item>
+    </Items>
+  </Options>
+</Root>
